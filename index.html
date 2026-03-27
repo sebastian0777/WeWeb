@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WeWeb | Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700;800&family=Space+Grotesk:wght@400;500;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="is-loading">
+  <div id="intro" class="intro" aria-hidden="true">
+    <div class="intro-core">
+      <span class="intro-ring"></span>
+      <span class="intro-ring intro-ring-delay"></span>
+      <p class="intro-logo">WW</p>
+    </div>
+  </div>
+
+  <div class="noise-layer" aria-hidden="true"></div>
+  <div class="led-layer" aria-hidden="true"></div>
+  <div class="led-lines" aria-hidden="true"></div>
+  <div class="glow glow-1" aria-hidden="true"></div>
+  <div class="glow glow-2" aria-hidden="true"></div>
+  <div class="cursor-led" aria-hidden="true"></div>
+
+  <header class="header">
+    <div class="brand">WW</div>
+    <nav class="nav">
+      <a href="#about" class="nav-icon-link" aria-label="Sobre mi" title="Sobre mi">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 12a4.2 4.2 0 1 0-4.2-4.2A4.2 4.2 0 0 0 12 12zm0 2.1c-4.1 0-7.5 2.2-7.5 4.9a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1c0-2.7-3.4-4.9-7.5-4.9z"/>
+        </svg>
+      </a>
+      <a href="#projects" class="nav-icon-link" aria-label="Proyectos" title="Proyectos">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 4h7v7H4zm9 0h7v7h-7zM4 13h7v7H4zm9 3h7v4h-7z"/>
+        </svg>
+      </a>
+      <a href="#clients" class="nav-icon-link" aria-label="Clientes" title="Clientes">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7.5 11a3 3 0 1 0-3-3 3 3 0 0 0 3 3zm9 0a3 3 0 1 0-3-3 3 3 0 0 0 3 3zM7.5 12.8c-2.8 0-5.1 1.5-5.1 3.4v1a.8.8 0 0 0 .8.8h8.6a4.8 4.8 0 0 1-.3-1.7c0-1.3.5-2.5 1.5-3.5zm9 0a4.8 4.8 0 0 0-4.8 4.8v.6a.8.8 0 0 0 .8.8h7.9a.8.8 0 0 0 .8-.8v-.6a4.8 4.8 0 0 0-4.7-4.8z"/>
+        </svg>
+      </a>
+      <a href="#contact" class="nav-icon-link" aria-label="Contacto" title="Contacto">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21.3 5.4a1 1 0 0 0-1-.1L3.7 12.1a1 1 0 0 0 .1 1.9l6 2.2 2.2 6a1 1 0 0 0 .9.7h.1a1 1 0 0 0 .9-.6l6.8-16.6a1 1 0 0 0-.4-1.3zM10.8 15l-.9-2.4 6.9-4.2z"/>
+        </svg>
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <p class="hero-weweb">WEWEB</p>
+      <h1>Construimos experiencias web <span>elegantes</span> y de alto impacto</h1>
+      <p class="hero-text">
+        En WeWeb creamos sitios premium con una identidad visual fuerte, animacion fluida y enfoque en conversion.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects">Ver proyectos</a>
+        <a class="btn btn-outline" href="#contact">Hablemos</a>
+      </div>
+      <div class="hero-metrics">
+        <article>
+          <h3>+18</h3>
+          <p>Proyectos publicados</p>
+        </article>
+        <article>
+          <h3>+10</h3>
+          <p>Clientes activos</p>
+        </article>
+        <article>
+          <h3>4 anos</h3>
+          <p>Experiencia digital</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about reveal">
+      <h2>Sobre mi</h2>
+      <div class="about-layout">
+        <figure class="about-photo-wrap">
+          <img class="about-photo" src="Foto.jpeg" alt="Foto de perfil de WeWeb" />
+        </figure>
+        <div class="about-copy">
+          <p id="about-animated-text" class="about-animated-text" data-text="Soy el fundador de WeWeb. Me enfoco en crear paginas elegantes, limpias y con movimiento inteligente. Cada proyecto que entregamos mezcla diseno premium, estrategia y una experiencia visual que realmente deja huella. Trabajo cada detalle visual para que una marca se vea confiable, moderna y diferente desde el primer segundo. Nuestro enfoque combina diseno de alto nivel, desarrollo web a medida y una narrativa digital que conecta con clientes reales."></p>
+          <div class="about-tags">
+            <span>Estrategia de marca</span>
+            <span>Diseño UI premium</span>
+            <span>Animacion web</span>
+            <span>Conversion y confianza</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects reveal">
+      <h2>Proyectos destacados</h2>
+      <div class="project-grid project-grid-two">
+        <a class="project-link" href="https://sebastian0777.github.io/ValenFoco/" target="_blank" rel="noopener noreferrer">
+          <article class="project-card">
+            <h3>Valeenfoco</h3>
+            <p>Pagina profesional con presencia visual fuerte, narrativa clara y estilo fotografico premium.</p>
+            <span>Brand Site / UI Motion</span>
+          </article>
+        </a>
+        <a class="project-link" href="https://sebastian0777.github.io/Vantoria/VANTORIAW.html#drops" target="_blank" rel="noopener noreferrer">
+          <article class="project-card">
+            <h3>Vantoria</h3>
+            <p>Web elegante orientada a posicionamiento, detalle visual y experiencia de usuario refinada.</p>
+            <span>Corporate Web / UX</span>
+          </article>
+        </a>
+        <a class="project-link" href="https://sebastian0777.github.io/Aircity/" target="_blank" rel="noopener noreferrer">
+        <article class="project-card">
+          <h3>AirCity</h3>
+          <p>Proyecto enfocado en experiencia moderna, estructura clara y presencia visual limpia.</p>
+          <span>Web Experience / UI</span>
+        </article>
+        </a>
+         <a class="project-link" href="https://sebastian0777.github.io/GFshop/" target="_blank" rel="noopener noreferrer">
+        <article class="project-card">
+          <h3>GFshop</h3>
+          <p>Tienda digital con enfoque en conversion, navegacion fluida y look profesional.</p>
+          <span>Ecommerce / UX</span>
+        </article>
+        </a>
+      </div>
+    </section>
+
+    <section id="clients" class="clients reveal">
+      <h2>Clientes que confian en WeWeb</h2>
+      <div class="client-grid">
+        <article class="client-card">Valeenfoco</article>
+        <article class="client-card">Vantoria</article>
+        <article class="client-card">GFshop</article>
+        <article class="client-card">Tu marca aqui</article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <h2>Hagamos crecer tu marca</h2>
+      <p>WeWeb esta listo para construir una presencia digital elegante, moderna y diferente.</p>
+      <a href="https://wa.me/573001234567?text=Hola%20WeWeb%2C%20quiero%20crear%20mi%20pagina%20web" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Contactanos por WhatsApp</a>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
